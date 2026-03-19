@@ -1,5 +1,4 @@
 import Category from "../../components/category/Category";
-import Footer from "../../components/footer/Footer";
 import HeroSection from "../../components/heroSection/HeroSection";
 import HomePageProductCard from "../../components/homePageProductCart/HomePageProductCart";
 import Layout from "../../components/layout/Layout";
@@ -14,6 +13,7 @@ const HomePage = () => {
           <HomePageProductCard/>
            <Track/>
            <Testimonial/>
+           <Loader/>
         </Layout>
     );
 }
