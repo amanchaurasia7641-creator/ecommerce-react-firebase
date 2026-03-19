@@ -1,9 +1,12 @@
+
 import Category from "../../components/category/Category";
 import HeroSection from "../../components/heroSection/HeroSection";
+import Footer from "../../components/footer/Footer";
 import HomePageProductCard from "../../components/homePageProductCart/HomePageProductCart";
 import Layout from "../../components/layout/Layout";
 import Testimonial from "../../components/testimonial/Testimonial";
 import Track from "../../components/track/Track";
+import Loader from "../../components/loader/Loader";
 
 const HomePage = () => {
     return (
